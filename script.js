@@ -20,6 +20,7 @@ function render1 () {
 
         document.getElementById("item1").textContent= '';
         
+        
     }
 }
 
@@ -108,9 +109,7 @@ function calculate () {
        cand.style.visibility = 'visible';
 
        document.getElementById("total").textContent= 'TOTAL-----'+total;
-   } 
-   else{
+   } else{
     cand.style.visibility = 'hidden';
    }
-   
 }
